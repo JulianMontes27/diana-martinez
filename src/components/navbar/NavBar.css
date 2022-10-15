@@ -1,7 +1,22 @@
 .nav-container{
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     list-style: none;
     flex-direction: row;
     justify-content: space-evenly;
-    
+    width: 100%;
+    background-color: beige;
+    margin: 0 auto;
+}
+
+li > a{
+    color: var(--mainText);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--secondaryText);
+    text-decoration-line: underline;
 }
